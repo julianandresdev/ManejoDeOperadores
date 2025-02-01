@@ -271,6 +271,72 @@ build operadoresAsignacion.exe: CXX_EXECUTABLE_LINKER__operadoresAsignacion_Debu
   TARGET_IMPLIB = liboperadoresAsignacion.dll.a
   TARGET_PDB = operadoresAsignacion.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target operadoresIncrementoPrePost
+
+
+#############################################
+# Order-only phony target for operadoresIncrementoPrePost
+
+build cmake_object_order_depends_target_operadoresIncrementoPrePost: phony || .
+
+build CMakeFiles/operadoresIncrementoPrePost.dir/operadoresIncrementoPrePost.cpp.obj: CXX_COMPILER__operadoresIncrementoPrePost_unscanned_Debug C$:/Users/Julian/Documents/CLion/ManejoDeOperadores/operadoresIncrementoPrePost.cpp || cmake_object_order_depends_target_operadoresIncrementoPrePost
+  DEP_FILE = CMakeFiles\operadoresIncrementoPrePost.dir\operadoresIncrementoPrePost.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\operadoresIncrementoPrePost.dir
+  OBJECT_FILE_DIR = CMakeFiles\operadoresIncrementoPrePost.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target operadoresIncrementoPrePost
+
+
+#############################################
+# Link the executable operadoresIncrementoPrePost.exe
+
+build operadoresIncrementoPrePost.exe: CXX_EXECUTABLE_LINKER__operadoresIncrementoPrePost_Debug CMakeFiles/operadoresIncrementoPrePost.dir/operadoresIncrementoPrePost.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\operadoresIncrementoPrePost.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = operadoresIncrementoPrePost.exe
+  TARGET_IMPLIB = liboperadoresIncrementoPrePost.dll.a
+  TARGET_PDB = operadoresIncrementoPrePost.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target tolkensAlternativos
+
+
+#############################################
+# Order-only phony target for tolkensAlternativos
+
+build cmake_object_order_depends_target_tolkensAlternativos: phony || .
+
+build CMakeFiles/tolkensAlternativos.dir/tolkensAlternativos.cpp.obj: CXX_COMPILER__tolkensAlternativos_unscanned_Debug C$:/Users/Julian/Documents/CLion/ManejoDeOperadores/tolkensAlternativos.cpp || cmake_object_order_depends_target_tolkensAlternativos
+  DEP_FILE = CMakeFiles\tolkensAlternativos.dir\tolkensAlternativos.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\tolkensAlternativos.dir
+  OBJECT_FILE_DIR = CMakeFiles\tolkensAlternativos.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target tolkensAlternativos
+
+
+#############################################
+# Link the executable tolkensAlternativos.exe
+
+build tolkensAlternativos.exe: CXX_EXECUTABLE_LINKER__tolkensAlternativos_Debug CMakeFiles/tolkensAlternativos.dir/tolkensAlternativos.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\tolkensAlternativos.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = tolkensAlternativos.exe
+  TARGET_IMPLIB = libtolkensAlternativos.dll.a
+  TARGET_PDB = tolkensAlternativos.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -309,7 +375,11 @@ build operadoresAsignacion: phony operadoresAsignacion.exe
 
 build operadoresBitwise: phony operadoresBitwise.exe
 
+build operadoresIncrementoPrePost: phony operadoresIncrementoPrePost.exe
+
 build operadoresLogicosRelacionales: phony operadoresLogicosRelacionales.exe
+
+build tolkensAlternativos: phony tolkensAlternativos.exe
 
 # =============================================================================
 # Folder targets.
@@ -319,7 +389,7 @@ build operadoresLogicosRelacionales: phony operadoresLogicosRelacionales.exe
 #############################################
 # Folder: C:/Users/Julian/Documents/CLion/ManejoDeOperadores/cmake-build-debug
 
-build all: phony ManejoDeOperadores.exe evaluacionAdmisiones.exe operadoresLogicosRelacionales.exe operadoresBitwise.exe gestionPermisos.exe cuentaBancaria.exe operadoresAsignacion.exe
+build all: phony ManejoDeOperadores.exe evaluacionAdmisiones.exe operadoresLogicosRelacionales.exe operadoresBitwise.exe gestionPermisos.exe cuentaBancaria.exe operadoresAsignacion.exe operadoresIncrementoPrePost.exe tolkensAlternativos.exe
 
 # =============================================================================
 # Built-in targets

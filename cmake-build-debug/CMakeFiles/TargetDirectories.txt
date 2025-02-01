@@ -5,5 +5,7 @@ C:/Users/Julian/Documents/CLion/ManejoDeOperadores/cmake-build-debug/CMakeFiles/
 C:/Users/Julian/Documents/CLion/ManejoDeOperadores/cmake-build-debug/CMakeFiles/gestionPermisos.dir
 C:/Users/Julian/Documents/CLion/ManejoDeOperadores/cmake-build-debug/CMakeFiles/cuentaBancaria.dir
 C:/Users/Julian/Documents/CLion/ManejoDeOperadores/cmake-build-debug/CMakeFiles/operadoresAsignacion.dir
+C:/Users/Julian/Documents/CLion/ManejoDeOperadores/cmake-build-debug/CMakeFiles/operadoresIncrementoPrePost.dir
+C:/Users/Julian/Documents/CLion/ManejoDeOperadores/cmake-build-debug/CMakeFiles/tolkensAlternativos.dir
 C:/Users/Julian/Documents/CLion/ManejoDeOperadores/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/Julian/Documents/CLion/ManejoDeOperadores/cmake-build-debug/CMakeFiles/rebuild_cache.dir
