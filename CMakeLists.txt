@@ -4,3 +4,5 @@ project(ManejoDeOperadores)
 set(CMAKE_CXX_STANDARD 20)
 
 add_executable(ManejoDeOperadores main.cpp)
+add_executable(evaluacionAdmisiones evaluacionAdmisiones.cpp)
+add_executable(operadoresLogicosRelacionales operadoresLogicosRelacionales.cpp)

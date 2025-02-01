@@ -15,7 +15,9 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1,
+						2
 					]
 				}
 			],
@@ -30,7 +32,9 @@
 					"name" : "ManejoDeOperadores",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1,
+						2
 					]
 				}
 			],
@@ -41,6 +45,20 @@
 					"id" : "ManejoDeOperadores::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-ManejoDeOperadores-Debug-0ec58dee7aeeaa6ebd20.json",
 					"name" : "ManejoDeOperadores",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "evaluacionAdmisiones::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-evaluacionAdmisiones-Debug-0898bbdd465e4737feed.json",
+					"name" : "evaluacionAdmisiones",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "operadoresLogicosRelacionales::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-operadoresLogicosRelacionales-Debug-ff803fcd1f7e319b9e1a.json",
+					"name" : "operadoresLogicosRelacionales",
 					"projectIndex" : 0
 				}
 			]
