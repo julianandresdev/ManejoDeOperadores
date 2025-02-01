@@ -1,5 +1,9 @@
 C:/Users/Julian/Documents/CLion/ManejoDeOperadores/cmake-build-debug/CMakeFiles/ManejoDeOperadores.dir
 C:/Users/Julian/Documents/CLion/ManejoDeOperadores/cmake-build-debug/CMakeFiles/evaluacionAdmisiones.dir
 C:/Users/Julian/Documents/CLion/ManejoDeOperadores/cmake-build-debug/CMakeFiles/operadoresLogicosRelacionales.dir
+C:/Users/Julian/Documents/CLion/ManejoDeOperadores/cmake-build-debug/CMakeFiles/operadoresBitwise.dir
+C:/Users/Julian/Documents/CLion/ManejoDeOperadores/cmake-build-debug/CMakeFiles/gestionPermisos.dir
+C:/Users/Julian/Documents/CLion/ManejoDeOperadores/cmake-build-debug/CMakeFiles/cuentaBancaria.dir
+C:/Users/Julian/Documents/CLion/ManejoDeOperadores/cmake-build-debug/CMakeFiles/operadoresAsignacion.dir
 C:/Users/Julian/Documents/CLion/ManejoDeOperadores/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/Julian/Documents/CLion/ManejoDeOperadores/cmake-build-debug/CMakeFiles/rebuild_cache.dir
